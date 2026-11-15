@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Instalar KebianOS
+GenericName=Calamares Installer
+Exec=calamares-install-debian
+Comment=Calamares — Instalador de KebianOS Live
+Keywords=calamares;system;install;kebianos;installer
+Icon=install-debian
+Terminal=false
+Categories=Qt;System;
+StartupWMClass=calamares
+StartupNotify=True

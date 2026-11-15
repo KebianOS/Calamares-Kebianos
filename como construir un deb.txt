@@ -1,0 +1,1 @@
+dpkg-deb -Zxz -z9 -Sextreme --root-owner-group --build carpeta/paquete paquete_vercion_amd64.deb
