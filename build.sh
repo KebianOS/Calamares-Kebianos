@@ -18,3 +18,6 @@ fi
 
 
 dpkg-deb -Zxz -z9 -Sextreme --root-owner-group --build calamares-settings-kebianos calamares-settings-kebianos_"$ver"_amd64.deb
+
+
+mv *.deb build/
