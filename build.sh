@@ -13,6 +13,7 @@ if [ "$1" = "-u" ]; then
     git add .
     git commit -m "$ver"
     git push origin main
+    mv *.deb build/
     exit 0
 fi
 
