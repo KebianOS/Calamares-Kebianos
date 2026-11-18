@@ -1,0 +1,12 @@
+Source: calamares-settings-kebianos
+Section: admin
+Priority: optional
+Maintainer: Daniel <danny.mg302@gmail.com.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: calamares-settings-kebianos
+Architecture: all
+Depends: ${misc:Depends}, calamares, keyutils, libyaml-cpp0.8, squashfs-tools, x11-xserver-utils, xdg-user-dirs, pkexec, sudo
+Description: Configuracion de calamares para KebianOS

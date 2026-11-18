@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Icono del instalador
+Exec=sh -c 'grep -qw boot=live /proc/cmdline && /usr/bin/add-calamares-desktop-icon'
+NoDisplay=true

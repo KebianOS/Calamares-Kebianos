@@ -1,0 +1,9 @@
+Package: calamares-settings-kebianos
+Version: 1.11.0
+Architecture: all
+Maintainer: Daniel <danny.mg302@gmail.com.com>
+Installed-Size: 178
+Depends: dconf-gsettings-backend | gsettings-backend, calamares, keyutils, libyaml-cpp0.8, squashfs-tools, x11-xserver-utils, xdg-user-dirs, pkexec, sudo
+Section: admin
+Priority: optional
+Description: Configuracion de calamares para KebianOS

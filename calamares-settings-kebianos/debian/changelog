@@ -1,0 +1,25 @@
+calamares-settings-kebianos (1.11.0) stable; urgency=low
+
+    * Se cambio el metodo de empaquetado a el estandar de Debian
+
+ -- Daniel <danny.mg302@gmail.com>  Wed, 18 Nov 2026 08:35:00 -0500
+
+calamares-settings-kebianos (1.10.0) stable; urgency=medium
+
+    * Vercion estable y usable de la config de calamares.
+    * Se añadio actualizador automatico al instalar el sistema
+    * Instalacion conectado a red obligatoria 
+    * Se añadieron las opciones para escojer el sistema de archivos, y la particion/archivo swap
+    * Creacion de subvolumenes BTRFS automatico
+    * Inhabilitacion de `kwallet` solo en el live
+    * Personalizacion de el icono de escritorio (Pasa de llamarse `instalar Debian` a llamarse `instalar KebianOS`)
+    * Creacion de el Branding de KebianOS
+    * Se modificaron los modulos `packages, partition, welcome, etc` con el proposito de dejar completo la instalacion de KebianOS
+
+ -- Daniel <danny.mg302@gmail.com>  Wed, 18 Nov 2026 07:42:09 -0500
+
+calamares-settings-kebianos (1.0.0) unstable; urgency=low
+
+    * Desde la vercion 1.0.0 -> 1.9.0 son verciones de prueva
+
+ -- Daniel <danny.mg302@gmail.com>  Thu, 17 Nov 2026 02:00:00 -0500
